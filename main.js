@@ -83,4 +83,5 @@ const idInvalidCardCompanies = nestedInvalidArray => {
 
 const deleteDuplicates = array => array.filter((item, index) => array.indexOf(item) === index);
 const invalidCards = findInvalidCards(batch);
-console.log(idInvalidCardCompanies(invalidCards))
+console.log(invalidCards);
+console.log(idInvalidCardCompanies(invalidCards));
